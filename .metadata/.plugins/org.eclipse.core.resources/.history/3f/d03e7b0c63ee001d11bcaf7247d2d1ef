@@ -1,0 +1,28 @@
+package com.Woost1;
+
+import org.testng.annotations.Test;
+
+public class OthersAnnotaion {
+@Test (priority = 0)
+public void usb1() {
+	System.out.println("1");
+}
+
+@Test
+public void usb2() {
+	System.out.println("2");
+}
+
+@Test
+public void usb3() {
+	System.out.println("3");
+}
+
+@Test
+public void usb4() {
+	System.out.println("4");
+}
+
+
+
+}

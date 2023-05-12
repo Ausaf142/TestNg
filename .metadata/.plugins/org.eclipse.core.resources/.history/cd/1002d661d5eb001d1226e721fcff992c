@@ -1,0 +1,12 @@
+package com.Woost1;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class Prog2 {
+	public static void main(String[] args) {
+		
+		 WebDriver driver = new ChromeDriver();
+		 
+
+}
+}

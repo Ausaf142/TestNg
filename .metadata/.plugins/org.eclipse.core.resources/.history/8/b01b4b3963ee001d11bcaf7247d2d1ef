@@ -1,0 +1,30 @@
+package com.Woost1;
+
+import org.testng.annotations.Test;
+
+import net.bytebuddy.build.Plugin.Factory.UsingReflection.Priority;
+
+public class OthersAnnotaion {
+@Test 
+public void usb1() {
+	System.out.println("1");
+}
+
+@Test
+public void usb2() {
+	System.out.println("2");
+}
+
+@Test (priority=0)
+public void usb3() {
+	System.out.println("3");
+}
+
+@Test
+public void usb4() {
+	System.out.println("4");
+}
+
+
+
+}

@@ -1,0 +1,17 @@
+package com.Woost1;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+public class Parallel2 {
+	@Test
+	@Parameters("browser")
+	public void Test2(String browser) {
+		browser = "edge";
+		System.out.println("test2 |" + Thread.currentThread().getId());
+		
+		driver.get("https://babluverma.netlify.app/");
+	}
+}

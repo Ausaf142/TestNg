@@ -1,0 +1,12 @@
+package com.Woost1;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Parallel2 {
+	public void Test2() {
+		System.out.println("test2 |" + Thread.currentThread().getId());
+		WebDriver driver= new ChromeDriver();
+		driver.get("https://babluverma.netlify.app/");
+	}
+}

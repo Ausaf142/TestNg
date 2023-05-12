@@ -1,0 +1,27 @@
+package com.Woost1;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+import com.beust.jcommander.Parameter;
+
+public class Parallel1 {
+	@Test 
+	@Parameters("browser")
+public void Test1(String browser) {
+		if(browser.equalsIgnoreCase("chrome")) {
+			WebDriver driver= new ChromeDriver();
+		}
+		else if(browser.equalsIgnoreCase("edge")){
+			WebDriver driver= new EdgeDriver();
+		}
+	System.out.println("test1 |" + Thread.currentThread().getId());
+	
+	driver.get("https://freekaamaal.com/");
+}
+
+
+}
