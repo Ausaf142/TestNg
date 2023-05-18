@@ -7,6 +7,7 @@
         <methods>
           <include name="tear"/>
           <include name="loginTest"/>
+          <include name="setup"/>
         </methods>
       </class> <!-- com.inteBanking.testCases.TestCase001 -->
     </classes>

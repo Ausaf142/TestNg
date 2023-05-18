@@ -45,10 +45,14 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="MyBank"/>
+			<item value="inteBankingV1"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="MyBank"/>
+			<item value="inteBankingV1"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

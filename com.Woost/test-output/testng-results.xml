@@ -1,39 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Opening browser]]>
+    </line>
+    <line>
+      <![CDATA[Opening browser]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-05-12T13:10:42 IST" name="Suite" finished-at="2023-05-12T13:10:53 IST" duration-ms="10927">
+  <suite started-at="2023-05-18T12:35:18 IST" name="Default suite" finished-at="2023-05-18T12:35:25 IST" duration-ms="6817">
     <groups>
     </groups>
-    <test started-at="2023-05-12T13:10:42 IST" name="Test1" finished-at="2023-05-12T13:10:52 IST" duration-ms="9739">
-      <class name="com.Woost1.Parallel1">
-        <test-method signature="Test1(java.lang.String)[pri:0, instance:com.Woost1.Parallel1@7c24b813]" started-at="2023-05-12T13:10:42 IST" name="Test1" finished-at="2023-05-12T13:10:52 IST" duration-ms="9688" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2023-05-18T12:35:18 IST" name="Default test" finished-at="2023-05-18T12:35:25 IST" duration-ms="6817">
+      <class name="com.Woost1.TestCase001">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Woost1.TestCase001@47d9a273]" started-at="2023-05-18T12:35:18 IST" name="setup" finished-at="2023-05-18T12:35:20 IST" duration-ms="1986" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.Woost1.TestCase001@47d9a273]" started-at="2023-05-18T12:35:20 IST" name="loginTest" finished-at="2023-05-18T12:35:25 IST" duration-ms="4569" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tear()[pri:0, instance:com.Woost1.TestCase001@47d9a273]" started-at="2023-05-18T12:35:25 IST" name="tear" finished-at="2023-05-18T12:35:25 IST" duration-ms="228" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test1 -->
-      </class> <!-- com.Woost1.Parallel1 -->
-    </test> <!-- Test1 -->
-    <test started-at="2023-05-12T13:10:42 IST" name="Test2" finished-at="2023-05-12T13:10:53 IST" duration-ms="10927">
-      <class name="com.Woost1.Parallel2">
-        <test-method signature="Test1(java.lang.String)[pri:0, instance:com.Woost1.Parallel2@2e3967ea]" started-at="2023-05-12T13:10:42 IST" name="Test1" finished-at="2023-05-12T13:10:53 IST" duration-ms="10890" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test1 -->
-      </class> <!-- com.Woost1.Parallel2 -->
-    </test> <!-- Test2 -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- tear -->
+      </class> <!-- com.Woost1.TestCase001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

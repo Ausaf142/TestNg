@@ -3,6 +3,7 @@
   <groupId>inteBankingV1</groupId>
   <artifactId>inteBankingV1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
   <dependencies>
      <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
     <dependency>
@@ -48,12 +49,6 @@
     <artifactId>sikuli-api</artifactId>
     <version>1.2.0</version>
 </dependency>
-
-
-  
-  
-  
-  
   
   </dependencies>
 </project>

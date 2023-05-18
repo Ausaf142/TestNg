@@ -4,30 +4,24 @@
     <line>
       <![CDATA[Opening browser]]>
     </line>
-    <line>
-      <![CDATA[Opening browser]]>
-    </line>
   </reporter-output>
-  <suite started-at="2023-05-15T16:54:23 IST" name="Default suite" finished-at="2023-05-15T16:54:30 IST" duration-ms="6350">
+  <suite started-at="2023-05-18T12:51:40 IST" name="Default suite" finished-at="2023-05-18T12:51:47 IST" duration-ms="6578">
     <groups>
     </groups>
-    <test started-at="2023-05-15T16:54:23 IST" name="Default test" finished-at="2023-05-15T16:54:30 IST" duration-ms="6350">
+    <test started-at="2023-05-18T12:51:40 IST" name="Default test" finished-at="2023-05-18T12:51:47 IST" duration-ms="6578">
       <class name="com.inteBanking.testCases.TestCase001">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.inteBanking.testCases.TestCase001@121314f7]" started-at="2023-05-15T16:54:23 IST" name="setup" finished-at="2023-05-15T16:54:25 IST" duration-ms="1817" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.inteBanking.testCases.TestCase001@740cae06]" started-at="2023-05-18T12:51:38 IST" name="setup" finished-at="2023-05-18T12:51:40 IST" duration-ms="1938" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Opening browser]]>
-            </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:com.inteBanking.testCases.TestCase001@121314f7]" started-at="2023-05-15T16:54:25 IST" name="loginTest" finished-at="2023-05-15T16:54:29 IST" duration-ms="4291" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.inteBanking.testCases.TestCase001@740cae06]" started-at="2023-05-18T12:51:40 IST" name="loginTest" finished-at="2023-05-18T12:51:47 IST" duration-ms="6537" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Opening browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tear()[pri:0, instance:com.inteBanking.testCases.TestCase001@121314f7]" started-at="2023-05-15T16:54:29 IST" name="tear" finished-at="2023-05-15T16:54:30 IST" duration-ms="193" status="PASS">
+        <test-method is-config="true" signature="tear()[pri:0, instance:com.inteBanking.testCases.TestCase001@740cae06]" started-at="2023-05-18T12:51:47 IST" name="tear" finished-at="2023-05-18T12:51:47 IST" duration-ms="136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tear -->
