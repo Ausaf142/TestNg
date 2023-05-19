@@ -12,14 +12,16 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
+
+
+import PomClasses.LPage;
 
 
 
 public class BaseClasss {
 	
 	public WebDriver driver;
-	
+	public 	LPage lp;
 	@BeforeSuite
 	public void BS() {
 	System.out.println("Conectiong to the database");
@@ -31,6 +33,7 @@ public class BaseClasss {
 	@BeforeClass
 	public void BC() {
 		System.out.println("launching the Browser");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Dell\\eclipse-workspace\\inteBankingV1\\Drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
@@ -44,7 +47,10 @@ public class BaseClasss {
 		String un = elib.valueFromSheet("inteBank", 1, 1);
 		String pw = elib.valueFromSheet("inteBank", 2, 1);
 		driver.get(url);
-		LoginPage lp = new LoginPage(driver);
+	
+		LPage lp = new LPage(driver);
+		lp.bankIdLogin(un, pw);
+		
 	}
 
 	@AfterMethod
@@ -54,6 +60,7 @@ public class BaseClasss {
 	}
 	@AfterClass
 	public void AC() {
+		driver.quit();
 		System.out.println("close the browser");
 	}
 

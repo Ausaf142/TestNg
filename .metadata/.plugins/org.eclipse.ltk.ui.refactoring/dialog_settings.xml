@@ -12,7 +12,7 @@
 		<item key="height" value="479"/>
 	</section>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
-		<item key="moveWizard.updateQualifiedNames" value="false"/>
+		<item key="moveWizard.updateQualifiedNames" value="true"/>
 		<item key="patterns" value="*"/>
 	</section>
 </section>
