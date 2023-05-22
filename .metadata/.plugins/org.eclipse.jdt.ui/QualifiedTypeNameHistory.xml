@@ -52,4 +52,5 @@
     <fullyQualifiedTypeName name="PomClasses.AddUser"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="GenericUtility.JavaUtility"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
