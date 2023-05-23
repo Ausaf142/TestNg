@@ -1,6 +1,7 @@
 package TestCases;
 
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import GenericUtility.BaseClasss;
 import GenericUtility.JavaUtility;
@@ -18,5 +19,10 @@ public void user() {
 	 
 
 	 auser.AddNewUserMale("ausaf", "14-02-1996", "jasolla", "delhi", "NCR", "234234", "4554544", "s@g.com"+number,"78457"+number);
+}
+@Test
+public void testFail() {
+Assert.assertTrue(false);
+System.out.println("this is fail test cases");
 }
 }
