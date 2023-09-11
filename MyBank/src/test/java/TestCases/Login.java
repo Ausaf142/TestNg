@@ -5,9 +5,9 @@ import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.util.Assert;
 
-import GenericUtility.BaseClasss;
+import GenericUtility.BaseClass;
 
-public class Login extends BaseClasss {
+public class Login extends BaseClass {
 @Test
 public void logg() {
 

@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Dell\eclipse-workspace\Begining"/>
 			<item value="C:\Users\Dell\eclipse-workspace\com.Woost\src\test\java\com\Woost1\Prog2.java"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -45,14 +46,12 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="MyBank"/>
-			<item value="inteBankingV1"/>
+			<item value="BegingMaven"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="MyBank"/>
-			<item value="inteBankingV1"/>
+			<item value="BegingMaven"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

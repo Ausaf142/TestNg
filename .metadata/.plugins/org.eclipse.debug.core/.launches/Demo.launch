@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<launchConfiguration type="org.testng.eclipse.launchconfig">
-    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="MyPractice"/>
-    <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS"/>
-    <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
-        <listEntry value="TestNg.Demo"/>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/BegingMaven/src/test/java/Beginner/Demo.java"/>
     </listAttribute>
-    <listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
-    <listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
-    <stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
-    <intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Beginner.Demo"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value=""/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="BegingMaven"/>
+    <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
 </launchConfiguration>

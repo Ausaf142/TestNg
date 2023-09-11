@@ -1,55 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Here my hybrid framework begins.......Ausaf,]]>
-    </line>
   </reporter-output>
-  <suite started-at="2023-05-23T15:48:36 IST" name="Default suite" finished-at="2023-05-23T15:48:47 IST" duration-ms="11133">
+  <suite started-at="2023-09-11T13:38:13 IST" name="Default suite" finished-at="2023-09-11T13:38:24 IST" duration-ms="10749">
     <groups>
     </groups>
-    <test started-at="2023-05-23T15:48:36 IST" name="Default test" finished-at="2023-05-23T15:48:47 IST" duration-ms="11133">
-      <class name="TestCases.Login">
-        <test-method is-config="true" signature="BS()[pri:0, instance:TestCases.Login@506ae4d4]" started-at="2023-05-23T15:48:36 IST" name="BS" finished-at="2023-05-23T15:48:36 IST" duration-ms="7" status="PASS">
+    <test started-at="2023-09-11T13:38:13 IST" name="Default test" finished-at="2023-09-11T13:38:24 IST" duration-ms="10749">
+      <class name="TestCases.NewUser">
+        <test-method is-config="true" signature="BS()[pri:0, instance:TestCases.NewUser@183ec003]" started-at="2023-09-11T13:38:13 IST" name="BS" finished-at="2023-09-11T13:38:13 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BS -->
-        <test-method is-config="true" signature="BT()[pri:0, instance:TestCases.Login@506ae4d4]" started-at="2023-05-23T15:48:36 IST" name="BT" finished-at="2023-05-23T15:48:36 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="BT()[pri:0, instance:TestCases.NewUser@183ec003]" started-at="2023-09-11T13:38:13 IST" name="BT" finished-at="2023-09-11T13:38:13 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BT -->
-        <test-method is-config="true" signature="BC()[pri:0, instance:TestCases.Login@506ae4d4]" started-at="2023-05-23T15:48:36 IST" name="BC" finished-at="2023-05-23T15:48:37 IST" duration-ms="1887" status="PASS">
+        <test-method is-config="true" signature="BC()[pri:0, instance:TestCases.NewUser@183ec003]" started-at="2023-09-11T13:38:13 IST" name="BC" finished-at="2023-09-11T13:38:15 IST" duration-ms="1901" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BC -->
-        <test-method is-config="true" signature="BM()[pri:0, instance:TestCases.Login@506ae4d4]" started-at="2023-05-23T15:48:37 IST" name="BM" finished-at="2023-05-23T15:48:46 IST" duration-ms="9022" status="PASS">
+        <test-method is-config="true" signature="BM()[pri:0, instance:TestCases.NewUser@183ec003]" started-at="2023-09-11T13:38:15 IST" name="BM" finished-at="2023-09-11T13:38:21 IST" duration-ms="6201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BM -->
-        <test-method signature="logg()[pri:0, instance:TestCases.Login@506ae4d4]" started-at="2023-05-23T15:48:46 IST" name="logg" finished-at="2023-05-23T15:48:46 IST" duration-ms="7" status="PASS">
+        <test-method signature="user()[pri:0, instance:TestCases.NewUser@183ec003]" started-at="2023-09-11T13:38:21 IST" name="user" finished-at="2023-09-11T13:38:24 IST" duration-ms="2607" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Here my hybrid framework begins.......Ausaf,]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- logg -->
-        <test-method is-config="true" signature="AM()[pri:0, instance:TestCases.Login@506ae4d4]" started-at="2023-05-23T15:48:46 IST" name="AM" finished-at="2023-05-23T15:48:46 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- user -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:TestCases.NewUser@183ec003]" started-at="2023-09-11T13:38:24 IST" name="AM" finished-at="2023-09-11T13:38:24 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AM -->
-        <test-method is-config="true" signature="AC()[pri:0, instance:TestCases.Login@506ae4d4]" started-at="2023-05-23T15:48:46 IST" name="AC" finished-at="2023-05-23T15:48:47 IST" duration-ms="175" status="PASS">
+        <test-method is-config="true" signature="AC()[pri:0, instance:TestCases.NewUser@183ec003]" started-at="2023-09-11T13:38:24 IST" name="AC" finished-at="2023-09-11T13:38:24 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AC -->
-        <test-method is-config="true" signature="AT()[pri:0, instance:TestCases.Login@506ae4d4]" started-at="2023-05-23T15:48:47 IST" name="AT" finished-at="2023-05-23T15:48:47 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="AT()[pri:0, instance:TestCases.NewUser@183ec003]" started-at="2023-09-11T13:38:24 IST" name="AT" finished-at="2023-09-11T13:38:24 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AT -->
-        <test-method is-config="true" signature="AS()[pri:0, instance:TestCases.Login@506ae4d4]" started-at="2023-05-23T15:48:47 IST" name="AS" finished-at="2023-05-23T15:48:47 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="AS()[pri:0, instance:TestCases.NewUser@183ec003]" started-at="2023-09-11T13:38:24 IST" name="AS" finished-at="2023-09-11T13:38:24 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AS -->
-      </class> <!-- TestCases.Login -->
+      </class> <!-- TestCases.NewUser -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

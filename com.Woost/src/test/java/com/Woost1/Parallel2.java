@@ -24,6 +24,8 @@ public class Parallel2 {
 					WebDriverManager.edgedriver().setup();
 					 driver=new EdgeDriver();
 					 }
+	
+			
 					 driver.get("https://babluverma.netlify.app/");
 		System.out.println("test2 |" + Thread.currentThread().getId());
 		
