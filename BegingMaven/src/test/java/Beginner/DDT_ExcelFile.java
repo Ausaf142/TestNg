@@ -18,7 +18,7 @@ public class DDT_ExcelFile {
 public static void main(String[] args) throws EncryptedDocumentException, IOException, InterruptedException {
 	WebDriver driver= new ChromeDriver();
 	driver.manage().window().maximize();
-	FileInputStream fis =new FileInputStream("./CashoraExcel.xlsx");
+	FileInputStream fis =new FileInputStream("./Cadbury.xlsx");
 	Workbook wb = WorkbookFactory.create(fis);
 	Sheet sheet = wb.getSheet("Sheet1");
 	String URL = sheet.getRow(0).getCell(1).getStringCellValue();

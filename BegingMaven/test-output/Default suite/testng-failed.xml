@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Beginner.FB">
+      <class name="Beginner.TestScript">
         <methods>
-          <include name="LoginFB"/>
+          <include name="foodEntertaiment"/>
+          <include name="BM"/>
+          <include name="BT"/>
+          <include name="BC"/>
+          <include name="BS"/>
         </methods>
-      </class> <!-- Beginner.FB -->
+      </class> <!-- Beginner.TestScript -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
