@@ -17,7 +17,7 @@ public class CashoraLogin {
 @Parameters("browser")
 public void test(String browser)
 {
-//	WebDriver driver=new ChromeDriver();
+	WebDriver driver=new ChromeDriver();
 	
 	if(browser.equalsIgnoreCase("chrome"))
 		driver=new ChromeDriver();

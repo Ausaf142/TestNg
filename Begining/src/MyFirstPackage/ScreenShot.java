@@ -14,7 +14,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import com.google.common.io.Files;
 
 public class ScreenShot {
+
 	public static void main(String[] args) throws IOException {
+		ss();
+	}
+	
+	public static void ss() throws IOException {
 	System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
 	WebDriver driver=new ChromeDriver();
 	driver.manage().window().maximize();
@@ -26,7 +31,6 @@ public class ScreenShot {
 	File dest=new File("./ss1.png");
 	Files.copy(pic, dest);
 	
-
+	}
 	
-}
 }

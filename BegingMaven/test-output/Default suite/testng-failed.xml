@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Beginner.TestScript">
+      <class name="Beginner.WindowHandle">
         <methods>
-          <include name="foodEntertaiment"/>
-          <include name="BM"/>
-          <include name="BT"/>
-          <include name="BC"/>
-          <include name="BS"/>
+          <include name="campaignWithProduct"/>
         </methods>
-      </class> <!-- Beginner.TestScript -->
+      </class> <!-- Beginner.WindowHandle -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

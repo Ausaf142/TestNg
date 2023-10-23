@@ -13,14 +13,15 @@ import org.testng.annotations.Test;
 public class FB {
 	public WebDriver driver;
 @Test
-@Parameters("browser")
-public void LoginFB(String browser) throws InterruptedException {
-//		WebDriver driver=new ChromeDriver();
-	if(browser.equalsIgnoreCase("chrome"))
-			driver=new ChromeDriver();
-	else if(browser.equalsIgnoreCase("edge")) {
-			driver=new EdgeDriver();
-		}
+//@Parameters("browser")
+//public void LoginFB(String browser) throws InterruptedException {
+	public void LoginFB() throws InterruptedException {
+		WebDriver driver=new ChromeDriver();
+//	if(browser.equalsIgnoreCase("chrome"))
+//			driver=new ChromeDriver();
+//	else if(browser.equalsIgnoreCase("edge")) {
+//			driver=new EdgeDriver();
+//		}
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 	driver.get("https://www.facebook.com/");

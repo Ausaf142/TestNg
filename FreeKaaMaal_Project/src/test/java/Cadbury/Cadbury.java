@@ -24,10 +24,11 @@ public class Cadbury {
 		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get("https://cadburygifting.in/track-my-order/");
 		
-			for(int row=0;row<4;row++) {
+			for(int row=0;row<49;row++) {
+				try {
 				System.out.println(row);
 				int cell=0;
 				ExcelUtility excel =new ExcelUtility();
@@ -58,6 +59,12 @@ public class Cadbury {
 				
 				System.out.println(status);
 				driver.navigate().refresh();
+			}
+				catch(Exception e){
+					System.out.println("wrong");
+					driver.navigate().refresh();
+					continue;
+				}
 			
 			}
 	   System.out.println("EXCEL SHEET AUTO RUN COMPLETED");

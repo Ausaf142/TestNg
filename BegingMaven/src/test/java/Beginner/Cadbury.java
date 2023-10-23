@@ -17,7 +17,7 @@ import GenericUtility.ExcelUtility;
 public class Cadbury {
 	
 	public static void main(String[] args) throws Throwable {
-		 String excelPtah="./DataEntry.xlsx";
+		 String excelPtah="./Cadbury.xlsx";
 		 String page ="Sheet1";
 		 int cell=0;
 		 int cell2=0;
@@ -25,7 +25,7 @@ public class Cadbury {
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			driver.get("https://cadburygifting.in/track-my-order/");
-			for(int row = 0;row<=10;row++) {
+			for(int row = 0;row<=2;row++) {
 				
 				ExcelUtility excel =new ExcelUtility();
 				String email = excel.getUrlAndPass(excelPtah, page, row, cell);
